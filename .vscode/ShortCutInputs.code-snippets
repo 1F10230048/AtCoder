@@ -1,0 +1,34 @@
+{
+	"int(input())": {
+		"scope": "python",
+		"prefix": "ii",
+		"body": [
+			"int(input())"
+		],
+		"description": "int-input"
+	},
+	"map(int, input().split())": {
+		"scope": "python",
+		"prefix": "iis",
+		"body": [
+			"map(int, input().split())"
+		],
+		"description": "int-inputs"
+	},
+	"list(map(int, input().split()))": {
+		"scope": "python",
+		"prefix": "liis",
+		"body": [
+			"list(map(int, input().split()))"
+		],
+		"description": "list int-inputs"
+	},
+	"list(input())": {
+		"scope": "python",
+		"prefix": "li",
+		"body": [
+			"list(input())"
+		],
+		"description": "list str-inputs"
+	}
+}
